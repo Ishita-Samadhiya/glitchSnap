@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331BD0FB2BDFF9E800B83815 /* InputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331BD0FA2BDFF9E800B83815 /* InputFieldView.swift */; };
+		331BD0FD2BE00EB200B83815 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331BD0FC2BE00EB200B83815 /* home.swift */; };
 		33627F812BDAAA6A009C220E /* GlitchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33627F802BDAAA6A009C220E /* GlitchApp.swift */; };
 		33627F832BDAAA6A009C220E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33627F822BDAAA6A009C220E /* ContentView.swift */; };
 		33627F852BDAAA6C009C220E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33627F842BDAAA6C009C220E /* Assets.xcassets */; };
 		33627F882BDAAA6C009C220E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33627F872BDAAA6C009C220E /* Preview Assets.xcassets */; };
+		33627F962BDAAE1D009C220E /* Silkscreen-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33627F942BDAAE1D009C220E /* Silkscreen-Bold.ttf */; };
+		33627F992BDAAEC3009C220E /* RubikGlitch-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33627F982BDAAEC3009C220E /* RubikGlitch-Regular.ttf */; };
+		33627F9B2BDAAFFD009C220E /* RubikGlitchPop-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 33627F9A2BDAAFFD009C220E /* RubikGlitchPop-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		331BD0FA2BDFF9E800B83815 /* InputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFieldView.swift; sourceTree = "<group>"; };
+		331BD0FC2BE00EB200B83815 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
 		33627F7D2BDAAA6A009C220E /* Glitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33627F802BDAAA6A009C220E /* GlitchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlitchApp.swift; sourceTree = "<group>"; };
 		33627F822BDAAA6A009C220E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		33627F842BDAAA6C009C220E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33627F872BDAAA6C009C220E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33627F942BDAAE1D009C220E /* Silkscreen-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Silkscreen-Bold.ttf"; path = "../../../../../Downloads/Silkscreen/Silkscreen-Bold.ttf"; sourceTree = "<group>"; };
+		33627F982BDAAEC3009C220E /* RubikGlitch-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikGlitch-Regular.ttf"; sourceTree = "<group>"; };
+		33627F9A2BDAAFFD009C220E /* RubikGlitchPop-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikGlitchPop-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				33627F802BDAAA6A009C220E /* GlitchApp.swift */,
+				331BD0FA2BDFF9E800B83815 /* InputFieldView.swift */,
+				33627F982BDAAEC3009C220E /* RubikGlitch-Regular.ttf */,
+				331BD0FC2BE00EB200B83815 /* home.swift */,
+				33627F9A2BDAAFFD009C220E /* RubikGlitchPop-Regular.ttf */,
+				33627F942BDAAE1D009C220E /* Silkscreen-Bold.ttf */,
 				33627F822BDAAA6A009C220E /* ContentView.swift */,
 				33627F842BDAAA6C009C220E /* Assets.xcassets */,
 				33627F862BDAAA6C009C220E /* Preview Content */,
@@ -125,7 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33627F9B2BDAAFFD009C220E /* RubikGlitchPop-Regular.ttf in Resources */,
+				33627F992BDAAEC3009C220E /* RubikGlitch-Regular.ttf in Resources */,
 				33627F882BDAAA6C009C220E /* Preview Assets.xcassets in Resources */,
+				33627F962BDAAE1D009C220E /* Silkscreen-Bold.ttf in Resources */,
 				33627F852BDAAA6C009C220E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +157,8 @@
 			files = (
 				33627F832BDAAA6A009C220E /* ContentView.swift in Sources */,
 				33627F812BDAAA6A009C220E /* GlitchApp.swift in Sources */,
+				331BD0FD2BE00EB200B83815 /* home.swift in Sources */,
+				331BD0FB2BDFF9E800B83815 /* InputFieldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +294,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Glitch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glitch/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +324,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Glitch/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Glitch/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
